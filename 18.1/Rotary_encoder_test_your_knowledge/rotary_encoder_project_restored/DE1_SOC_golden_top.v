@@ -192,6 +192,7 @@ assign resetn = GPIO_0[1];
 // Add the appropriate signals to connect to the various blocks together
 
 // knight_rider i_knight_rider(.CLOCK_50(), .LEDR());
+
 knight_rider i_knight_rider(.CLOCK_50(CLOCK_50), .LEDR(LEDR), .counter_offset(counter_offset)); // This is commented out by default. Remove comment when adding the rotary encoder
 rotary_encoder i1_rotary_encoder (.clk(slow_clock), .quadA(quadA), .quadB(quadB), .resetn(resetn), .count(rotary_count));
 seven_segment i_seven_segment_0 (.led_bcd(decimal_ones), .led_out(HEX0[6:0]));
