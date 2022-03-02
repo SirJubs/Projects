@@ -39,3 +39,9 @@
 *.hdb
 *.rpt
 *.qws
+*.qarlog
+*.sv
+*.qdf
+*.sft
+*.svo
+*.xrf
