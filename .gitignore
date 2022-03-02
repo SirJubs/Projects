@@ -1,0 +1,12 @@
+*.bak
+*.qpf
+*.qsf
+*.asm.*
+*.done
+*.fit.*
+*.jdi
+*.map.*
+*.pin
+*.pof
+*.sld
+*.sta.*
